@@ -1,19 +1,20 @@
 ## COVID-19 世界現況板作り
 
-
 ## javascript -> typescript
 
-0. JSDocでタイプシステムを適用してみる
+0. JSDoc でタイプシステムを適用してみる
 
 1. typescript 基本環境構築
 
-- [X] NPM 初期化
--    ```$ npm init ```
-- [X] install typescript library
--    ```$ npm i typescript ```
-- [X] tsconfig.jsonを生成し、基本設定追加
-- [X] *.js -> *.ts 
-- [X] `tsc` commandでコンパイルする
+- [x] NPM 初期化
+- `$ npm init `
+- [x] install typescript library
+- `$ npm i typescript `
+- [x] tsconfig.json を生成し、基本設定追加
+- [x] _.js -> _.ts
+- [x] `tsc` command でコンパイルする
+
+2. noImplicitAny 追加
 
 ## 参考資料
 
