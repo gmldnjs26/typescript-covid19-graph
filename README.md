@@ -6,16 +6,22 @@
 
 1. typescript 基本環境構築
 
-- [x] NPM 初期化
-- `$ npm init `
-- [x] install typescript library
-- `$ npm i typescript `
-- [x] tsconfig.json を生成し、基本設定追加
-- [x] _.js -> _.ts
-- [x] `tsc` command でコンパイルする
+  - [x] NPM 初期化
+    - `$ npm init `
+  - [x] install typescript library
+    - `$ npm i typescript `
+  - [x] tsconfig.json を生成し、基本設定追加
+  - [x] _.js -> _.ts
+  - [x] `tsc` command でコンパイルする
 
-2. noImplicitAny 追加
+2. 一旦、全部 `any` にする。
+  - `tsconfig.json`ファイルに`noImplicitAny = true`を追加する。
+  - なるべく具体的なタイプにする。
 
+3. 開発環境設定
+  - babel, eslint, prettier 設定
+
+4. 外部ライブラリモジュール化
 ## 参考資料
 
 - [ジョーンズ·ホプキンス·コロナの現況](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
