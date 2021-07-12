@@ -1,11 +1,16 @@
 {
   "compilerOptions": {
-    "allowJs": true,
     "target": "ES5",
-    "outDir": "./built",
+    "module": "ESNext",
     "moduleResolution": "Node",
-    "lib": ["ES2015", "DOM", "DOM.Iterable"],
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "DOM"
+    ],
+    "allowJs": true,
     "noImplicitAny": true,
+    "outDir": "./built",
     "typeRoots": ["./node_modules/@types", "./types"]
   },
   "include": ["./src/**/*"]
