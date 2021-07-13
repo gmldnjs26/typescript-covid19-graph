@@ -11,7 +11,16 @@
     "allowJs": true,
     "noImplicitAny": true,
     "outDir": "./built",
-    "typeRoots": ["./node_modules/@types", "./types"]
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],  
+      "@/*": [
+        "./*"
+      ]
+    },
   },
   "include": ["./src/**/*"]
 }

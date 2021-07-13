@@ -131,8 +131,6 @@ var __generator =
       return { value: op[0] ? op[1] : void 0, done: true };
     }
   };
-import axios from 'axios';
-import * as Chart from 'chart.js';
 // utils
 function $(selector) {
   return document.querySelector(selector);
