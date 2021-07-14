@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "sourceMap": true,
     "target": "ES5",
-    "module": "ESNext",
+    "module": "ES2015",
     "moduleResolution": "Node",
     "lib": [
       "ESNext",
