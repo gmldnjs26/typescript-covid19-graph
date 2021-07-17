@@ -22,6 +22,7 @@
         "./*"
       ]
     },
+    "strict": true, // strict에 관한 옵션들은 true가 된다.
   },
   "include": ["./src/**/*"]
 }
